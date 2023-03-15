@@ -1,0 +1,3 @@
+Cucumber is a BDD (Behavior-Driven Development) framework that can be used to automate non-functional tests such as stress testing and performance testing. Cucumber is based on the Gherkin language, which is a simple and easy-to-understand language for defining test scenarios.
+
+Cucumber can be integrated with various load testing tools such as JMeter, Gatling  to create and execute load tests using Gherkin scenarios.
