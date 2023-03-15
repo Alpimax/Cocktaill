@@ -3,14 +3,14 @@ package com.alpi.step_definitions;
 
 import io.cucumber.java.en.*;
 
-import static io.restassured.RestAssured.*;
+
 
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 import static org.junit.Assert.*;
-
+import static io.restassured.RestAssured.*;
 
 public class CocktailApiTestSteps {
 

@@ -7,7 +7,6 @@ import io.restassured.RestAssured;
 public class Hooks {
     @Before("@API")
     public static void init() {
-
         RestAssured.baseURI = "https://www.thecocktaildb.com/api/json/v1/1";
     }
 
