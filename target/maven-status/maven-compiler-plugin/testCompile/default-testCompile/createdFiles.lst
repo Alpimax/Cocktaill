@@ -1,6 +1,0 @@
-com/alpi/step_definitions/CocktailApiTestSteps.class
-com/alpi/runner/Runner.class
-com/alpi/utilities/ConfigurationReader.class
-com/alpi/step_definitions/SchemaValidation.class
-com/alpi/step_definitions/Hooks.class
-com/alpi/runner/FailedTestRunner.class
