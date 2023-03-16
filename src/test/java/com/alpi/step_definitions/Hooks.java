@@ -10,4 +10,5 @@ public class Hooks {
         RestAssured.baseURI = "https://www.thecocktaildb.com/api/json/v1/1";
     }
 
+
 }
