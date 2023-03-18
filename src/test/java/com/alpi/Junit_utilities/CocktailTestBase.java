@@ -1,14 +1,13 @@
-package com.alpi.step_definitions;
+package com.alpi.Junit_utilities;
 
-import io.cucumber.java.Before;
-import io.cucumber.java.BeforeAll;
 import io.restassured.RestAssured;
+import org.junit.jupiter.api.BeforeAll;
 
-
-public class Hooks {
-    @Before()
+public abstract class CocktailTestBase  {
+    @BeforeAll
     public static void init() {
-        RestAssured.baseURI = "https://www.thecocktaildb.com/api/json/v1/1";
-    }
 
+        RestAssured.baseURI = "https://www.thecocktaildb.com/api/json/v1/1";
+
+    }
 }

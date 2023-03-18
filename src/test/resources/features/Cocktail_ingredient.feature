@@ -1,4 +1,4 @@
-@Cocktail
+@Cocktail   @Smoke    @Daily  @UnitRegression  @Regression
 Feature: Search Ingredients By Name
 
   Scenario Outline: Search for an ingredient by name and verify its details
