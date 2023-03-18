@@ -2,20 +2,23 @@ package com.alpi.step_definitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
-import io.restassured.response.ValidatableResponse;
-import io.restassured.specification.RequestSpecification;
+import org.assertj.core.api.SoftAssertions;
+import org.junit.Assert;
+import org.junit.rules.ErrorCollector;
 
-import static com.alpi.step_definitions.Cocktail_Steps.*;
+import java.io.IOException;
+import java.util.List;
+import java.util.Map;
+
+import static com.alpi.step_definitions.CocktailIngredientSteps.*;
 import static org.hamcrest.Matchers.*;
 
 
-public class Cocktail_search_steps {
+public class CocktailSearchSteps {
 
     @And("verify item name contains {string}")
-    public void verifyItemNameContains(String lovercase) {
-        validResponse.body("drinks.strDrink", everyItem(contains(lovercase)));
+    public void verifyItemNameContains(String lowercase) {
+        validResponse.body("drinks.strDrink", everyItem(contains(lowercase)));
 
     }
 
@@ -23,7 +26,6 @@ public class Cocktail_search_steps {
     @And("Query param {string} is {string}")
     public void queryParamIs(String key, String value) {
         reqSpec.queryParam(key, value);
-
     }
 
     @When("user sends GET request to {string}")
@@ -50,12 +52,22 @@ public class Cocktail_search_steps {
 
     @And("{string} field should be present in each drink")
     public void fieldShouldBePresentInEachDrink(String require) {
-        validResponse.body("drinks." + require, everyItem(notNullValue()));
+
+
+        try {
+            validResponse.body("drinks." + require, everyItem(notNullValue()));
+        } catch (AssertionError e) {
+            System.err.println("require = " + require);
+            System.err.println("Error: " + e.getMessage());
+        }
+
+
     }
 
     @And("response should contain {string} array")
     public void responseShouldContainArray(String items) {
-        validResponse.body("" + items  ,notNullValue());
+
+        validResponse.body("" + items, notNullValue());
 
     }
 

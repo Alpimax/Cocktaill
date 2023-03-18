@@ -1,4 +1,4 @@
-@Cocktail
+@Cocktail    @Smoke    @Daily  @UnitRegression  @Regression
 Feature: Search Cocktails By Name
 
   Scenario: Search for a Cocktail by Name (Case-insensitive)
@@ -9,7 +9,6 @@ Feature: Search Cocktails By Name
     And response should not be null
     And response should contain "Margarita" in its name.
 
-
   Scenario: Search for a Non-existent Cocktail
     Given Accept type is "application/json"
     And Query param "s" is "@#$%^&*()_+"
@@ -17,9 +16,9 @@ Feature: Search Cocktails By Name
     Then status code should be 200
     And response should be null
 
-  Scenario: Search for a cocktail by name
+  Scenario Outline: Search for a cocktail by name
     Given Accept type is "application/json"
-    And Query param "s" is "margarita"
+    And Query param "s" is "<Cocktail>"
     When user sends GET request to "/search.php"
     Then status code should be 200
     And response should contain "drinks" array
@@ -32,3 +31,16 @@ Feature: Search Cocktails By Name
     And "strIngredient1" field should be present in each drink
     And "strMeasure1" field should be present in each drink
     And each drink should have "dateModified".
+    Examples:
+
+      | Cocktail             |
+      | Gin and Tonic        |
+      | Mojito               |
+      | Manhattan            |
+      | margarita            |
+      | Mai Tai              |
+      | Old Fashioned        |
+      | Mojito               |
+      | Whiskey Sour         |
+      | Sex on the Beach     |
+      | Long Island Iced Tea |

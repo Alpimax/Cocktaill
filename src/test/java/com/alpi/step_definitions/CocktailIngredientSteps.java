@@ -8,13 +8,12 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
-import org.junit.Assert;
 
 
 import static org.hamcrest.Matchers.*;
 import static io.restassured.RestAssured.*;
 
-public class Cocktail_Steps {
+public class CocktailIngredientSteps {
     static RequestSpecification reqSpec;
     static ValidatableResponse validResponse;
     static Response response;
@@ -34,6 +33,7 @@ public class Cocktail_Steps {
     @When("user send GET request to {string}")
     public void userSendGETRequestTo(String endPoint) {
         response = reqSpec.when().get(endPoint);
+        jsonPath = response.jsonPath();
     }
 
     @Then("status code should be {int}")
@@ -78,6 +78,5 @@ public class Cocktail_Steps {
     public void search_should_return_an(String string) {
         validResponse.body("ingredients", nullValue());
     }
-
 
 }
