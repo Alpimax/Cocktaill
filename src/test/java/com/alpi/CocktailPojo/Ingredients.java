@@ -8,10 +8,10 @@ import lombok.Data;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Ingredients {
 
-    private String idIngredient;
-    private String strIngredient;
-    private String strDescription;
-    private String strType;
-    private String strAlcohol;
-    private String strABV;
+    private Object idIngredient;
+    private Object strIngredient;
+    private Object strDescription;
+    private Object strType;
+    private Object strAlcohol;
+    private Object strABV;
 }

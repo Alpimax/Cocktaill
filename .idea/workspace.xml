@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1dbb16c2-d12e-4c9a-a4b2-a8e6e5f85f7b" name="Changes" comment="Cocktail Friday update">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/alpi/CocktailPojo/Drinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alpi/CocktailPojo/Drinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/alpi/CocktailPojo/Ingredients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alpi/CocktailPojo/Ingredients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/alpi/Junit_parameterized_test/ParameterizedTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alpi/Junit_parameterized_test/ParameterizedTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/alpi/step_definitions/CocktailIngredientSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alpi/step_definitions/CocktailIngredientSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/alpi/step_definitions/CocktailSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alpi/step_definitions/CocktailSearchSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/alpi/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alpi/step_definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Cocktail_ingredient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Cocktail_ingredient.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Cocktail_search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Cocktail_search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-feature_1938528511.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-feature_1938528511.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-feature_1_797733206.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-feature_1_797733206.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_1609038979.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_1609038979.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2226523296.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2226523296.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_3704782148.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_3704782148.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_4045542840.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_4045542840.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_4059758862.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_4059758862.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/alpi/CocktailPojo/Drinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/alpi/CocktailPojo/Drinks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/alpi/CocktailPojo/Ingredients.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/alpi/CocktailPojo/Ingredients.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/alpi/step_definitions/CocktailIngredientSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/alpi/step_definitions/CocktailIngredientSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/alpi/step_definitions/CocktailSearchSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/alpi/step_definitions/CocktailSearchSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Cocktail_ingredient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Cocktail_ingredient.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Cocktail_search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Cocktail_search.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2Mz8lphXQIkGoCT9hJ6gxDQELP6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbook/IdeaProjects/Cocktaill/src/test/resources/features&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/features" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Runner">
+    <configuration name="Scenario: Search for a cocktail by name" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Cocktail_search.feature" />
+      <option name="GLUE" value="com.alpi.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Cocktaill" />
+      <option name="NAME_FILTER" value="^Search for a cocktail by name$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Search for a cocktail by name$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Search for a cocktail by name" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CocktailSearchSteps.fieldShouldBePresentInEachDrink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cocktaill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alpi.step_definitions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alpi.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="com.alpi.step_definitions.CocktailSearchSteps" />
+      <option name="METHOD_NAME" value="fieldShouldBePresentInEachDrink" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelUtilRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cocktaill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alpi.Excel_util_read.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alpi.Excel_util_read" />
+      <option name="MAIN_CLASS_NAME" value="com.alpi.Excel_util_read.ExcelUtilRead" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParameterizedTestCase.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cocktaill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alpi.Junit_parameterized_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alpi.Junit_parameterized_test" />
+      <option name="MAIN_CLASS_NAME" value="com.alpi.Junit_parameterized_test.ParameterizedTestCase" />
+      <option name="METHOD_NAME" value="test2(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cocktaill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alpi.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alpi.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.alpi.runner.Runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: Search for a cocktail by name" />
+        <item itemvalue="JUnit.CocktailSearchSteps.fieldShouldBePresentInEachDrink" />
+        <item itemvalue="JUnit.ParameterizedTestCase.test2" />
+        <item itemvalue="JUnit.ExcelUtilRead" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dbb16c2-d12e-4c9a-a4b2-a8e6e5f85f7b" name="Changes" comment="" />
+      <created>1678759206371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678759206371</updated>
+      <workItem from="1678759207905" duration="420000" />
+      <workItem from="1678759703600" duration="21701000" />
+      <workItem from="1678963012282" duration="14412000" />
+    </task>
+    <task id="LOCAL-00001" summary="Cocktail Question">
+      <created>1678883666892</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678883666892</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Cocktail Question">
+      <created>1678893451813</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678893451813</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Cocktail Question">
+      <created>1678896859848</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678896859848</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Cocktail Question">
+      <created>1678896871736</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678896871736</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Cocktail Question">
+      <created>1678982099172</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678982099172</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Cocktail Question">
+      <created>1678982157896</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678982157896</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Cocktail Friday update">
+      <created>1679119925485</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679119925485</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Cocktail Friday update">
+      <created>1679119948613</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679119948613</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Cocktail Friday update">
+      <created>1679120146161</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679120146161</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cocktail Question" />
+    <MESSAGE value="Cocktail Friday update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cocktail Friday update" />
+  </component>
+</project>

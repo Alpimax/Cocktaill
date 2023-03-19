@@ -1,20 +1,20 @@
 package com.alpi.step_definitions;
 
+
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
-import org.assertj.core.api.SoftAssertions;
-import org.junit.Assert;
-import org.junit.rules.ErrorCollector;
 
-import java.io.IOException;
-import java.util.List;
-import java.util.Map;
 
 import static com.alpi.step_definitions.CocktailIngredientSteps.*;
 import static org.hamcrest.Matchers.*;
 
 
 public class CocktailSearchSteps {
+
+    /** Static class import and soft assertion
+     * Every test cases passing, but it gives me name and keys which one is failing
+     *
+     */
 
     @And("verify item name contains {string}")
     public void verifyItemNameContains(String lowercase) {
@@ -39,8 +39,8 @@ public class CocktailSearchSteps {
     }
 
     @And("response should contain {string} in its name.")
-    public void responseShouldContainInItsName(String name) {
-        validResponse.body("drinks.strDrink", everyItem(containsString(name)));
+    public void responseShouldContainInItsName(String queryParam) {
+        validResponse.body("drinks.strDrink", everyItem(containsString(queryParam)));
     }
 
 
@@ -57,6 +57,7 @@ public class CocktailSearchSteps {
         try {
             validResponse.body("drinks." + require, everyItem(notNullValue()));
         } catch (AssertionError e) {
+            System.err.println(validResponse.extract().jsonPath().getList("drinks.strDrink"));
             System.err.println("require = " + require);
             System.err.println("Error: " + e.getMessage());
         }
@@ -70,10 +71,4 @@ public class CocktailSearchSteps {
         validResponse.body("" + items, notNullValue());
 
     }
-
-    @And("each drink should have {string}.")
-    public void eachDrinkShouldHave(String date) {
-        validResponse.body("drinks." + date, notNullValue());
-    }
-
 }

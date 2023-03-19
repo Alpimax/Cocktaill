@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         glue = "com/alpi/step_definitions",
         dryRun = false,
         tags = "@Cocktail"
-//         @Smoke    @Daily  @UnitRegression  @Regression
+//         @Smoke    @DayBase  @UnitRegression  @Regression
 )
 public class Runner {
 

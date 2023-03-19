@@ -7,6 +7,11 @@ import lombok.Data;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Drinks {
 
+    /** Response converter POJO class
+     *  when working with a heavy payload.
+     *
+     */
+
     private String strDrink;
     private String strTags;
     private String strCategory;

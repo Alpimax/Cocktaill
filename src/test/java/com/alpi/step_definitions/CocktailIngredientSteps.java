@@ -13,6 +13,18 @@ import io.restassured.specification.RequestSpecification;
 import static org.hamcrest.Matchers.*;
 import static io.restassured.RestAssured.*;
 
+/**
+ * we can solve this task 5 different ways
+ * // Pojo Class   // response body  // De-serialization //Hamcrest  // Jsonpath
+ * I focused Hamcrest below reasons -
+ * -Readability and maintainability
+ * -Performance and reliability
+ * -Security
+ * -Collaboration and teamwork
+ *
+ */
+
+
 public class CocktailIngredientSteps {
     static RequestSpecification reqSpec;
     static ValidatableResponse validResponse;
@@ -79,4 +91,8 @@ public class CocktailIngredientSteps {
         validResponse.body("ingredients", nullValue());
     }
 
+    @And("content type is {string}")
+    public void contentTypeIs(String contentType) {
+        validResponse.contentType(contentType);
+    }
 }

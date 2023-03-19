@@ -8,6 +8,7 @@ Feature: Search Ingredients By Name
     And Query param  "i" is "<name>"
     When user send GET request to "/search.php"
     Then status code should be 200
+    And  content type is "application/json"
     And  verify "<Ingredient>" with "<Ingredient ID>"
     And User should able to see "<Description>"
     And verify "<Type>" is product
@@ -34,6 +35,7 @@ Feature: Search Ingredients By Name
     And  Query param  "i" is "<name>"
     When user send GET request to "/search.php"
     Then status code should be 200
+    And  content type is "application/json"
     And search should return an "<Message>"
 
 
