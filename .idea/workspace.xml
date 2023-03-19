@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dbb16c2-d12e-4c9a-a4b2-a8e6e5f85f7b" name="Changes" comment="Cocktail Friday update">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/alpi/CocktailPojo/Drinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alpi/CocktailPojo/Drinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/alpi/CocktailPojo/Ingredients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alpi/CocktailPojo/Ingredients.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/alpi/Junit_parameterized_test/ParameterizedTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alpi/Junit_parameterized_test/ParameterizedTestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/alpi/step_definitions/CocktailIngredientSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alpi/step_definitions/CocktailIngredientSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/alpi/step_definitions/CocktailSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alpi/step_definitions/CocktailSearchSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/alpi/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alpi/step_definitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Cocktail_ingredient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Cocktail_ingredient.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Cocktail_search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Cocktail_search.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-feature_1938528511.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-feature_1938528511.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-feature_1_797733206.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-feature_1_797733206.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_1609038979.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_1609038979.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2226523296.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_2226523296.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_3704782148.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_3704782148.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_4045542840.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_4045542840.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_4059758862.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-reports/report-tag_4059758862.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/alpi/CocktailPojo/Drinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/alpi/CocktailPojo/Drinks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/alpi/CocktailPojo/Ingredients.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/alpi/CocktailPojo/Ingredients.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/alpi/step_definitions/CocktailIngredientSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/alpi/step_definitions/CocktailIngredientSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/alpi/step_definitions/CocktailSearchSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/alpi/step_definitions/CocktailSearchSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Cocktail_ingredient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Cocktail_ingredient.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Cocktail_search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Cocktail_search.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ Kubernetes_deployment_file.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679120146161</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Cocktail Friday update">
+      <created>1679186830895</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679186830895</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
